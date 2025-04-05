@@ -1,0 +1,55 @@
+body{
+    background:url("home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.allframe{
+    display: flex;
+    gap: 2px;
+}
+.frame1{
+    height:480px;
+    width:33%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frame2{
+    height:480px;
+    width:33%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.frame3{
+    height:480px;
+    width:33%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frame2 button{
+    height: 50px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: aqua;
+}
+.box{
+    height: 300px;
+    width: 187px;
+    color: white;
+}
+#homebox{
+    height: 50px;
+    width: 200px;
+    background: transparent;
+    border: none;
+    border-bottom: solid 2px white;
+    font-size: 25px;
+    outline: none;
+}

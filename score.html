@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <title>Score Board</title>
+    <link rel="stylesheet" href="score.css">
+    <script src="working.js"></script>
+</head>
+
+<body>
+    <div class="all">
+        <div class="container1">
+            <label>
+                <h1>SCORE</h1>
+            </label>
+            <h1 class="scoreboard">0</h1>
+            <div style="display: flex;">
+                <label>
+                    <h3>Target:</h3>
+                </label>
+                <h3 class="targetboard"> 0</h3>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="inner">
+                <div class="overindicate"><label>
+                        <h1>OVER:</h1>
+                    </label>
+                    <h1 class="num">0</h1>
+                </div>
+                <div>
+                    <div class="over">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <div id="button">
+                <button class="next" onclick="next()">Next Over</button>
+                <button class="second" onclick="second()">Second Half</button>
+            </div>
+            <button class="end" onclick="end()">End Match</button>
+        </div>
+        <div class="container3">
+            <div class="allbutton">
+                <button onclick="dot(event)">.</button>
+                <button onclick="one(event)">1</button>
+                <button onclick="two(event)">2</button>
+                <button onclick="three(event)">3</button>
+                <button onclick="four(event)">4</button>
+                <button onclick="six(event)">6</button>
+                <button onclick="nb(event)">NB</button>
+                <button onclick="w(event)">W</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

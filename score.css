@@ -1,0 +1,101 @@
+body{
+    background: url("score.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.all{
+    display: flex;
+    gap: 2px;
+}
+.container1{
+    height:480px;
+    width:33%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container2{
+    height:480px;
+    width:33%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    color: white;
+}
+.container3{
+    height:480px;
+    width:33%;
+    padding: 20px;  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: white;
+}
+.over{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+.over div{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    color: greenyellow;
+    border: solid 2px greenyellow;
+    border-radius: 360%;
+    font-size: 40px;
+    text-align: center;
+}
+.allbutton{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+.allbutton button{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    color: greenyellow;
+    border: solid 2px greenyellow;
+    border-radius: 360%;
+    font-size: 20px;
+}
+.next{
+    border: solid 2px greenyellow;
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+    margin: 20px;
+    background-color: cornflowerblue;
+}
+.second{
+    border: solid 2px greenyellow;
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+    margin: 20px;
+    background-color: aqua;
+}
+.end{
+    border: solid 2px greenyellow;
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+    margin: 20px;
+    background-color: red;
+}
+#button{
+    display: flex;
+}
+.overindicate{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
